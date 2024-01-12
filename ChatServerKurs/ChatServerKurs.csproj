@@ -18,4 +18,10 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Crypter">
+      <HintPath>Crypter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
